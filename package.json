@@ -1,21 +1,41 @@
 {
-  "name": "js-tcp",
+  "name": "node-js-tcp-exercises",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hands-on exercises for understanding TCP internals in Node.js - connection pools, event loop phases, and backpressure handling",
   "main": "index.js",
   "scripts": {
+    "exercise-1": "node exercise-1-starter.js",
+    "exercise-1-solution": "node exercise-1-solution.js",
+    "exercise-2": "node exercise-2-starter.js",
+    "exercise-2-solution": "node exercise-2-solution.js",
+    "exercise-3": "node exercise-3-starter.js",
+    "exercise-3-solution": "node exercise-3-solution.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pavel-romanov8/node-js-tcp-socket.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "tcp",
+    "networking",
+    "performance",
+    "backpressure",
+    "event-loop",
+    "connection-pool",
+    "socket",
+    "exercises",
+    "tutorial"
+  ],
+  "author": "Pavel Romanov",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/pavel-romanov8/node-js-tcp-socket/issues"
   },
-  "homepage": "https://github.com/pavel-romanov8/node-js-tcp-socket#readme"
+  "homepage": "https://github.com/pavel-romanov8/node-js-tcp-socket#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
